@@ -21,7 +21,7 @@ To start testing teleoperation.
 - Images Carousel
 - Youtube embedding: Exoskeleton-style Teleoperation
 - Video Carousel
-- PDF Poster: /
+- PDF Poster: Appendix.pdf
 - Bibtex citation
 
 ## Tips:
