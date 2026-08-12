@@ -51,7 +51,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Frequency-Enhanced Wavelet-based Transformer in Imitation Learning for Humanoid Robot</h1>
+            <h1 class="title is-1 publication-title">FEWT: Frequency-Enhanced Wavelet-based Transformer for Multimodal Wheeled Bimanual Manipulation</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
@@ -76,7 +76,7 @@
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Jiangsu Provincial Key Laboratory of Food Advanced Manufacturing Equipment Technology, School of Mechanical Engineering, Jiangnan University, Wuxi, China.<br>Humanoid Robot: Humanoid Black Knight (HBK)</span>
+                    <span class="author-block">Jiangsu Key Laboratory of Advanced Food Manufacturing Equipment and Technology, School of Mechanical Engineering, Jiangnan University.<br>Wuxi 214122, China</span>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                     <span class="eql-cntrb"><small><br><sup>†</sup>Corresponding Author</small></span>
                   </div>
@@ -84,15 +84,15 @@
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
-<!--                      <span class="link-block">-->
-<!--                        <a href="https://arxiv.org/pdf/2402.16057.pdf" target="_blank"-->
-<!--                        class="external-link button is-normal is-rounded is-dark">-->
-<!--                        <span class="icon">-->
-<!--                          <i class="fas fa-file-pdf"></i>-->
-<!--                        </span>-->
-<!--                        <span>Paper</span>-->
-<!--                      </a>-->
-<!--                    </span>-->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2402.16057.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
 
                     <!-- Supplementary PDF link -->
                     <span class="link-block">
@@ -106,16 +106,16 @@
                   </span>
 
                   <!-- Github link -->
-                  <span class="link-block">
-<!--                    <a href="https://github.com/humanoid-black-knight" target="_blank"-->
-                    <a href="https://github.com/humanoid-black-knight/HBK" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code (coming soon)</span>
-                  </a>
-                </span>
+<!--                  <span class="link-block">-->
+<!--&lt;!&ndash;                    <a href="https://github.com/humanoid-black-knight" target="_blank"&ndash;&gt;-->
+<!--                    <a href="https://github.com/humanoid-black-knight/HBK" target="_blank"-->
+<!--                    class="external-link button is-normal is-rounded is-dark">-->
+<!--                    <span class="icon">-->
+<!--                      <i class="fab fa-github"></i>-->
+<!--                    </span>-->
+<!--                    <span>Code (coming soon)</span>-->
+<!--                  </a>-->
+<!--                </span>-->
 
                 <!-- ArXiv abstract Link -->
 <!--                <span class="link-block">-->
@@ -146,7 +146,7 @@
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        Humanoid Black Knight (HBK) Video.
+        Video.
     </div>
   </div>
 </section>
@@ -160,7 +160,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            The embodied intelligence bridges the physical world and information space. As its typical physical embodiment, humanoid robots have shown great promise through robot learning algorithms in recent years. In this study, a hardware platform, including humanoid robot and exoskeleton-style teleoperation cabin, was developed to realize intuitive remote manipulation and efficient collection of anthropomorphic action data. To improve the perception representation of humanoid robot, an imitation learning framework, termed Frequency-Enhanced Wavelet-based Transformer (FEWT), was proposed, which consists of two primary modules: Frequency-Enhanced Efficient Multi-Scale Attention (FE-EMA) and Time-Series Discrete Wavelet Transform (TS-DWT). By combining multi-scale wavelet decomposition with the residual network, FE-EMA can dynamically fuse features from both cross-spatial and frequency-domain. This fusion is able to capture feature information across various scales effectively, thereby enhancing model robustness. Experimental performance demonstrates that FEWT improves the success rate of the state-of-the-art algorithm (Action Chunking with Transformers, ACT baseline) by up to 30% in simulation and by 6-12% in real-world.
+            Embodied intelligence bridges the physical world and information spaces, with robots demonstrating immense potential through imitation learning algorithms. In this study, a custom-built wheeled bimanual robotic platform equipped with an exoskeleton-style teleoperation system was utilized to realize intuitive remote manipulation and the efficient collection of anthropomorphic action data. To overcome the representation mismatch between spatial visual semantics and localized high-frequency physical dynamics, we propose a lightweight frequency-aligned imitation-learning framework, termed the Frequency-Enhanced Wavelet-based Transformer (FEWT). FEWT integrates two primary modules: Frequency-Enhanced Efficient Multi-Scale Attention (FE-EMA) and Time-Series Discrete Wavelet Transform (TS-DWT) to explicitly extract and align multi-scale features, improving the compatibility between spatial visual representations and temporal-frequency recalibration. Crucially, for real-world deployment, this framework is further extended into a multimodal system by seamlessly integrating a self-developed Smart Tactile Fabric (STF) sensor into the physical end-effectors, providing local contact-stress information that complements proprioceptive and chassis-motion cues in the shared multimodal representation. Experimental evaluations demonstrate that the core FEWT architecture significantly improves the success rate over the widely used Action Chunking with Transformers baseline, particularly during the most challenging phases of simulated bimanual insertion tasks. Furthermore, in complex real-world mobile and desktop manipulation tasks, the full STF-enhanced system effectively adapts to microscopic dynamic perturbations, yielding substantial performance enhancements.
           </p>
         </div>
       </div>
@@ -340,11 +340,11 @@
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>
-        @article{huang2025hbk,
-        title={Frequency-Enhanced Wavelet-based Transformer in Imitation Learning for Humanoid Robot},
+        @article{huang2026fewt,
+        title={FEWT: Frequency-Enhanced Wavelet-based Transformer for Multimodal Wheeled Bimanual Manipulation},
         author={Huang, Jiaxin and Liu, Hanyu and Ma, Yunsheng and Shen, Jian and Zheng, Yilin and Wen, Jiayi and Song, Zhigong},
         booktitle={/},
-        year={2025}
+        year={2026}
         }
       </code></pre>
     </div>
