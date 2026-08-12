@@ -1,4 +1,4 @@
-# Humanoid Black Knight
+# FEWT: Frequency-Enhanced Wavelet-based Transformer for Multimodal Wheeled Bimanual Manipulation
 Exoskeleton-style Teleoperation and Imitation Learning.
 
 
@@ -17,9 +17,7 @@ To start testing teleoperation.
     python humanoid_one_side_teleop_right.py
 
 ## Components
-- Teaser video: Humanoid Black Knight
 - Images Carousel
-- Youtube embedding: Exoskeleton-style Teleoperation
 - Video Carousel
 - PDF Poster: Appendix.pdf
 - Bibtex citation
